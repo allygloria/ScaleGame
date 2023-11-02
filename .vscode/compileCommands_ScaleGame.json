@@ -1,0 +1,106 @@
+[
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\ScaleGame.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\ScaleGame.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\ScaleGame.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\ScaleGameCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\ScaleGameCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\ScaleGameGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\ScaleGameGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\ScaleGameProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\ScaleGameProjectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\TP_PickUpComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\TP_PickUpComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\TP_WeaponComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\ScaleGame\\Source\\ScaleGame\\TP_WeaponComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Projects\\ScaleGame\\.vscode\\compileCommands_ScaleGame\\ScaleGame.255.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	}
+]

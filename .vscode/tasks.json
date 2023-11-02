@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ScaleGame Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Test",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Test",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Test",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Shipping",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Shipping",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"Win64",
+				"Shipping",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Debug",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Debug",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Debug",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"DebugGame",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"DebugGame",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"DebugGame",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Development",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Development",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Development",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Test",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Test",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Test",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Shipping",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Shipping",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGame HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGame HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGame",
+				"HoloLens",
+				"Shipping",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGameEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGameEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGameEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGameEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGameEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGameEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGameEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGameEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGameEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGameEditor",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGameEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ScaleGameEditor",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ScaleGameEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ScaleGameEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ScaleGameEditor",
+				"Win64",
+				"Development",
+				"D:\\Unreal Projects\\ScaleGame\\ScaleGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		}
+	]
+}
